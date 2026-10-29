@@ -1,0 +1,48 @@
+.carousel {
+  position: relative;
+  width: 55%;
+  max-width: 1200px; /* Or whatever width fits your homepage layout */
+  height: 400px;     /* Set a fixed height for all banners */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px; /* Optional rounded corners */
+}
+
+/* The actual banner image */
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Magic property: scales image to crop nicely without stretching */
+  object-position: center; /* Keeps the focus in the center of the banner */
+  display: block;
+}
+
+/* Simple overlay button styling */
+.carousel-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.carousel-buttons button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.carousel-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-container{
+  width: 100%;
+  background-color: #DDC7A0;
+}

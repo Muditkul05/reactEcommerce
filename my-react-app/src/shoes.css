@@ -1,0 +1,32 @@
+.shoe-container{
+    display: flexbox;
+    width: 100%;
+    background-color: beige;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.image {
+    width: 100px;     
+    height: 100px;     
+    object-fit: cover; 
+    border-radius: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  border: 10px solid ; 
+  border-radius: 8px;
+  overflow: hidden; 
+  background-color: beige;
+}
+tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+tr:last-child {
+  border-bottom: none;
+}
+td {
+  padding: 16px;
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+.products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    background-color: #DDC7A0;
+    padding: 1em; 
+}
+
+
+.shoes, .electronics, .clothes, .grocery {
+    background-color: white;
+    min-height: 200px;
+    border-radius: 1em;
+    padding: 1em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
